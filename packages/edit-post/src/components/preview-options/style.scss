@@ -54,12 +54,7 @@
 .editor-post-preview__button-external {
 	height: $button-size;
 	display: flex;
-}
-
-.editor-post-preview__icon-external {
-	position: absolute;
-	right: $grid-unit-20 - $border-width;
-	top: $grid-unit-20 - $border-width - $border-width;
+	justify-content: space-between;
 }
 
 @include break-small() {
